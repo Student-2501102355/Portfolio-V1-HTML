@@ -1,0 +1,129 @@
+/* General Page Setup */
+body {
+    font-family: Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8;
+    text-align: center; /* centers all text by default */
+}
+
+/* Headings */
+h1, h2 {
+    font-family: Tahoma, sans-serif;
+    color: #1e3a8a;
+}
+
+/* Paragraphs */
+p {
+    font-family: Tahoma, sans-serif;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #3b82f6;
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    background-color: #facc15;
+    color: #1e3a8a;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+/* Navigation Bar */
+/* Navigation Bar */
+nav {
+    background-color: #facc15;   /* yellow background */
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Navigation list styling */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Each menu item */
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+/* Blue button style for links */
+nav ul li a {
+    background-color: #1e3a8a;   /* blue button background */
+    color: #facc15;              /* yellow text */
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;         /* rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+/* Hover effect (invert colors) */
+nav ul li a:hover {
+    background-color: #3b82f6;   /* lighter blue when hovered */
+    color: white;                /* white text */
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+section {
+    background: white;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 700px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Highlight for Section Headings */
+section h2 {
+    background-color: #1e3a8a;
+    color: #facc15;
+    display: inline-block;
+    padding: 8px 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* Center the image */
+img {
+    display: block;
+    margin: 15px auto;
+    border-radius: 10px;
+}
+
+
+/* Footer */
+/* Footer */
+/* Footer */
+footer {
+    background-color: #3b82f6;   /* same blue background as header */
+    text-align: center;
+    padding: 30px 0;             /* space around the yellow box */
+}
+
+/* Yellow highlight inside footer */
+footer p {
+    background-color: #facc15;   /* yellow box */
+    color: #1e3a8a;              /* blue text */
+    display: inline-block;       /* centers like a button */
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* soft shadow */
+    margin: 0;                   /* remove extra spacing */
+}
